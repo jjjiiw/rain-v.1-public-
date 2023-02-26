@@ -1,0 +1,79 @@
+--// scripts made by @tech#007 
+--// scripts made by Capybara#3593
+--/ and @ rxxixna#4178
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Rain v.1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+	local Section = Tab:AddSection({
+		Name = "KAH"
+		OrionLib:MakeNotification({
+			Name = "Title!",
+			Content = "Notification content... gui loaded",
+			Image = "rbxassetid://4483345998",
+			Time = 3
+
+			Tab:AddButton({
+				Name = "kick script",
+				Callback = function()
+					loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tech-187/Obfuscated-art/main/v3-newmode-lite'),true))()  
+				end)
+
+				Tab:AddButton({
+					Name = "scv2!",
+					Callback = function()
+						loadstring(game:HttpGet(('https://raw.githubusercontent.com/Qltxi/SCV2/main/Obfuscated%20SCV2-NP%27),true))()
+					  end
+					  Tab:AddButton({
+						Name = "speed script!",
+						Callback = function()
+							function speedUp()
+								script.Parent.Touched:Connect(function(Player) 
+								local humanoid = Player.Parent.Parent:FindFirstChildOfClass("Humanoid")
+								humanoid.JumpPower = 30
+								humanoid.Walkspeed = 90
+								 end)
+								end
+						  end    
+
+						  Tab:AddButton({
+							Name = "antipunish",
+							Callback = function()
+									  charcter:destroy
+							  end    
+
+							  Tab:AddButton({
+								Name = "autores",
+								Callback = function()
+									local ReplicatedStorage = game.ReplicatedStorage
+									local Dominus = ReplicatedStorage:WaitForChild('Dominus')
+									local DropperPart = workspace:WaitForChild('DropperPart')
+									
+									--// Main
+									while wait(math.random(1,5)) do
+										local NewDominus = Dominus:Clone()
+										NewDominus.Parent = DropperPart
+										NewDominus.CFrame = DropperPart.CFrame
+										game:GetService('Debris'):AddItem(NewDominus,3) -- The '3' is how many secs it will disappear in.
+									end
+								  end    
+								  Tab:AddButton({
+									Name = "grab all pads",
+									Callback = function()
+										now = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+										=
+										game.Workspace.Terrain.GameFolder.Admin.Pads['Touch to get admin'].Head.CFrame
+										
+										wait(0.3)
+										
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = now
+									  end
+
+
+
